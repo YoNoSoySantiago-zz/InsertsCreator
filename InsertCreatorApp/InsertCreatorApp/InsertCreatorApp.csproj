@@ -34,6 +34,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Collections.NonGeneric, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Collections.NonGeneric.4.3.0\lib\net46\System.Collections.NonGeneric.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -46,6 +51,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="customExceptions\notNullViolatedException.cs" />
+    <Compile Include="customExceptions\uniqueViolatedException.cs" />
+    <Compile Include="customExceptions\valueTooLargeException.cs" />
     <Compile Include="Model\Controller.cs" />
     <Compile Include="Model\Department.cs" />
     <Compile Include="Model\Employee.cs" />
@@ -58,18 +66,6 @@
       <DependentUpon>AutogenPane.cs</DependentUpon>
     </Compile>
     <Compile Include="Ui\ControllerGUI.cs" />
-    <Compile Include="Ui\CreatePane.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Ui\CreatePane.Designer.cs">
-      <DependentUpon>CreatePane.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Ui\MainPane.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Ui\MainPane.Designer.cs">
-      <DependentUpon>MainPane.cs</DependentUpon>
-    </Compile>
     <Compile Include="Ui\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -84,12 +80,7 @@
     <EmbeddedResource Include="Ui\AutogenPane.resx">
       <DependentUpon>AutogenPane.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Ui\CreatePane.resx">
-      <DependentUpon>CreatePane.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Ui\MainPane.resx">
-      <DependentUpon>MainPane.cs</DependentUpon>
-    </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

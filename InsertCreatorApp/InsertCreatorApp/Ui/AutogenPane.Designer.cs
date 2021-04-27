@@ -29,29 +29,28 @@ namespace InsertCreatorApp.Ui
         /// </summary>
         private void InitializeComponent()
         {
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.nud_departments = new System.Windows.Forms.NumericUpDown();
             this.label1 = new System.Windows.Forms.Label();
             this.bt_generateAction = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown3 = new System.Windows.Forms.NumericUpDown();
+            this.nud_employee = new System.Windows.Forms.NumericUpDown();
+            this.nud_project = new System.Windows.Forms.NumericUpDown();
             this.label4 = new System.Windows.Forms.Label();
-            this.numericUpDown4 = new System.Windows.Forms.NumericUpDown();
+            this.nud_works = new System.Windows.Forms.NumericUpDown();
             this.label5 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nud_departments)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nud_employee)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nud_project)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nud_works)).BeginInit();
             this.SuspendLayout();
             // 
-            // numericUpDown1
+            // nud_departments
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(220, 93);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(60, 20);
-            this.numericUpDown1.TabIndex = 0;
+            this.nud_departments.Location = new System.Drawing.Point(220, 93);
+            this.nud_departments.Name = "nud_departments";
+            this.nud_departments.Size = new System.Drawing.Size(60, 20);
+            this.nud_departments.TabIndex = 0;
             // 
             // label1
             // 
@@ -74,11 +73,12 @@ namespace InsertCreatorApp.Ui
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(236, 60);
+            this.label2.ForeColor = System.Drawing.Color.Maroon;
+            this.label2.Location = new System.Drawing.Point(223, 64);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(25, 13);
+            this.label2.Size = new System.Drawing.Size(57, 13);
             this.label2.TabIndex = 3;
-            this.label2.Text = "size";
+            this.label2.Text = "max 1000*";
             // 
             // label3
             // 
@@ -89,19 +89,19 @@ namespace InsertCreatorApp.Ui
             this.label3.TabIndex = 4;
             this.label3.Text = "EMPLOYEE";
             // 
-            // numericUpDown2
+            // nud_employee
             // 
-            this.numericUpDown2.Location = new System.Drawing.Point(220, 136);
-            this.numericUpDown2.Name = "numericUpDown2";
-            this.numericUpDown2.Size = new System.Drawing.Size(60, 20);
-            this.numericUpDown2.TabIndex = 5;
+            this.nud_employee.Location = new System.Drawing.Point(220, 136);
+            this.nud_employee.Name = "nud_employee";
+            this.nud_employee.Size = new System.Drawing.Size(60, 20);
+            this.nud_employee.TabIndex = 5;
             // 
-            // numericUpDown3
+            // nud_project
             // 
-            this.numericUpDown3.Location = new System.Drawing.Point(220, 180);
-            this.numericUpDown3.Name = "numericUpDown3";
-            this.numericUpDown3.Size = new System.Drawing.Size(60, 20);
-            this.numericUpDown3.TabIndex = 7;
+            this.nud_project.Location = new System.Drawing.Point(220, 180);
+            this.nud_project.Name = "nud_project";
+            this.nud_project.Size = new System.Drawing.Size(60, 20);
+            this.nud_project.TabIndex = 7;
             // 
             // label4
             // 
@@ -112,12 +112,12 @@ namespace InsertCreatorApp.Ui
             this.label4.TabIndex = 6;
             this.label4.Text = "PROJECT";
             // 
-            // numericUpDown4
+            // nud_works
             // 
-            this.numericUpDown4.Location = new System.Drawing.Point(220, 225);
-            this.numericUpDown4.Name = "numericUpDown4";
-            this.numericUpDown4.Size = new System.Drawing.Size(60, 20);
-            this.numericUpDown4.TabIndex = 9;
+            this.nud_works.Location = new System.Drawing.Point(220, 225);
+            this.nud_works.Name = "nud_works";
+            this.nud_works.Size = new System.Drawing.Size(60, 20);
+            this.nud_works.TabIndex = 9;
             // 
             // label5
             // 
@@ -128,36 +128,27 @@ namespace InsertCreatorApp.Ui
             this.label5.TabIndex = 8;
             this.label5.Text = "WORKS_ON";
             // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(0, 1);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(48, 23);
-            this.button2.TabIndex = 10;
-            this.button2.Text = "BACK";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
             // AutogenPane
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(313, 356);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.numericUpDown4);
+            this.Controls.Add(this.nud_works);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.numericUpDown3);
+            this.Controls.Add(this.nud_project);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.numericUpDown2);
+            this.Controls.Add(this.nud_employee);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.bt_generateAction);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.numericUpDown1);
+            this.Controls.Add(this.nud_departments);
             this.Name = "AutogenPane";
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).EndInit();
+            this.Load += new System.EventHandler(this.AutogenPane_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.nud_departments)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nud_employee)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nud_project)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nud_works)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -165,16 +156,15 @@ namespace InsertCreatorApp.Ui
 
         #endregion
 
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.NumericUpDown nud_departments;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button bt_generateAction;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.NumericUpDown numericUpDown2;
-        private System.Windows.Forms.NumericUpDown numericUpDown3;
+        private System.Windows.Forms.NumericUpDown nud_employee;
+        private System.Windows.Forms.NumericUpDown nud_project;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.NumericUpDown numericUpDown4;
+        private System.Windows.Forms.NumericUpDown nud_works;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button button2;
     }
 }

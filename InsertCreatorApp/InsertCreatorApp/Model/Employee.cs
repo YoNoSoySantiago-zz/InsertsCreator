@@ -25,5 +25,17 @@ namespace InsertCreatorApp.Model
         public const string SEX = "Sex";
         public const string POSITION = "Position";
         public const string DEPT_NO = Department.DEPT_NO;
+
+        public Employee(string empNo, string fName, string lName, string address1, string DOB, char sex, string position,string deptNo)
+        {
+            this.empNo = empNo;
+            this.fName = fName;
+            this.lName = lName;
+            this.address1 = address1;
+            this.DOB = DOB;
+            this.sex = sex;
+            this.position = position;
+            this.deptNo = deptNo;
+        }
     }
 }

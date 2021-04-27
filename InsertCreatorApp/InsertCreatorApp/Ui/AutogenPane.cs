@@ -17,6 +17,11 @@ namespace InsertCreatorApp.Ui
             InitializeComponent();
         }
 
+        private void AutogenPane_Load(object sender, EventArgs e)
+        {
+
+        }
+
         
     }
 }

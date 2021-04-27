@@ -18,5 +18,12 @@ namespace InsertCreatorApp.Model
         public const string DEPT_NO = "Department ID";
         public const string DEPT_NAME = "Department name";
         public const string EMP_NO = Employee.EMP_NO;
+
+        public Department(string deptNo,string deptName, string empNo)
+        {
+            this.deptNo = deptNo;
+            this.deptName = deptName;
+            this.empNo = empNo;
+        }
     }
 }

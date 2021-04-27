@@ -16,5 +16,11 @@ namespace InsertCreatorApp.Model
         public const string PROJ_NAME = "Project Name";
         public const string DEBT_NO = Department.DEPT_NO;
 
+        public Project(string projNo, string projName,string deptNo)
+        {
+            this.projNo = projNo;
+            this.projName = projName;
+            this.deptNo = deptNo;
+        }
     }
 }

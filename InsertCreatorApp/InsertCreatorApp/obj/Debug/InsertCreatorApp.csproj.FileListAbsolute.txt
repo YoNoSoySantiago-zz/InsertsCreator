@@ -1,0 +1,10 @@
+D:\ICESI\Modelado\TareaPractica3\InsertsCreator\InsertCreatorApp\InsertCreatorApp\bin\Debug\InsertCreatorApp.exe.config
+D:\ICESI\Modelado\TareaPractica3\InsertsCreator\InsertCreatorApp\InsertCreatorApp\bin\Debug\InsertCreatorApp.exe
+D:\ICESI\Modelado\TareaPractica3\InsertsCreator\InsertCreatorApp\InsertCreatorApp\bin\Debug\InsertCreatorApp.pdb
+D:\ICESI\Modelado\TareaPractica3\InsertsCreator\InsertCreatorApp\InsertCreatorApp\obj\Debug\InsertCreatorApp.csprojAssemblyReference.cache
+D:\ICESI\Modelado\TareaPractica3\InsertsCreator\InsertCreatorApp\InsertCreatorApp\obj\Debug\InsertCreatorApp.Properties.Resources.resources
+D:\ICESI\Modelado\TareaPractica3\InsertsCreator\InsertCreatorApp\InsertCreatorApp\obj\Debug\InsertCreatorApp.Ui.AutogenPane.resources
+D:\ICESI\Modelado\TareaPractica3\InsertsCreator\InsertCreatorApp\InsertCreatorApp\obj\Debug\InsertCreatorApp.csproj.GenerateResource.cache
+D:\ICESI\Modelado\TareaPractica3\InsertsCreator\InsertCreatorApp\InsertCreatorApp\obj\Debug\InsertCreatorApp.csproj.CoreCompileInputs.cache
+D:\ICESI\Modelado\TareaPractica3\InsertsCreator\InsertCreatorApp\InsertCreatorApp\obj\Debug\InsertCreatorApp.exe
+D:\ICESI\Modelado\TareaPractica3\InsertsCreator\InsertCreatorApp\InsertCreatorApp\obj\Debug\InsertCreatorApp.pdb
