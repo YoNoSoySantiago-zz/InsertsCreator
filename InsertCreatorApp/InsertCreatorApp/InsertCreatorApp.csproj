@@ -51,9 +51,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="customExceptions\notNullViolatedException.cs" />
-    <Compile Include="customExceptions\uniqueViolatedException.cs" />
-    <Compile Include="customExceptions\valueTooLargeException.cs" />
     <Compile Include="Model\Controller.cs" />
     <Compile Include="Model\Department.cs" />
     <Compile Include="Model\Employee.cs" />

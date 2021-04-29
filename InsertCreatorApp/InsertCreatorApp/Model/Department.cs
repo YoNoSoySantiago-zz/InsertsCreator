@@ -25,5 +25,11 @@ namespace InsertCreatorApp.Model
             this.deptName = deptName;
             this.empNo = empNo;
         }
+
+        override
+        public string ToString()
+        {
+            return deptNo + ";" + deptName + ";" + empNo;
+        }
     }
 }

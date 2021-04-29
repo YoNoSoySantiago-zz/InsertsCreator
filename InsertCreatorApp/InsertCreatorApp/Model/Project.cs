@@ -22,5 +22,11 @@ namespace InsertCreatorApp.Model
             this.projName = projName;
             this.deptNo = deptNo;
         }
+
+        override
+        public string ToString()
+        {
+            return projNo + ";" + projName + ";" + deptNo;
+        }
     }
 }

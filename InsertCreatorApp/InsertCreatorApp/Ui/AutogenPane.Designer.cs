@@ -32,7 +32,6 @@ namespace InsertCreatorApp.Ui
             this.nud_departments = new System.Windows.Forms.NumericUpDown();
             this.label1 = new System.Windows.Forms.Label();
             this.bt_generateAction = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.nud_employee = new System.Windows.Forms.NumericUpDown();
             this.nud_project = new System.Windows.Forms.NumericUpDown();
@@ -51,6 +50,7 @@ namespace InsertCreatorApp.Ui
             this.nud_departments.Name = "nud_departments";
             this.nud_departments.Size = new System.Drawing.Size(60, 20);
             this.nud_departments.TabIndex = 0;
+            this.nud_departments.ValueChanged += new System.EventHandler(this.nud_departments_ValueChanged);
             // 
             // label1
             // 
@@ -63,22 +63,14 @@ namespace InsertCreatorApp.Ui
             // 
             // bt_generateAction
             // 
+            this.bt_generateAction.Enabled = false;
             this.bt_generateAction.Location = new System.Drawing.Point(120, 321);
             this.bt_generateAction.Name = "bt_generateAction";
             this.bt_generateAction.Size = new System.Drawing.Size(75, 23);
             this.bt_generateAction.TabIndex = 2;
             this.bt_generateAction.Text = "GENERATE";
             this.bt_generateAction.UseVisualStyleBackColor = true;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.ForeColor = System.Drawing.Color.Maroon;
-            this.label2.Location = new System.Drawing.Point(223, 64);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(57, 13);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "max 1000*";
+            this.bt_generateAction.Click += new System.EventHandler(this.bt_generateAction_Click);
             // 
             // label3
             // 
@@ -95,6 +87,7 @@ namespace InsertCreatorApp.Ui
             this.nud_employee.Name = "nud_employee";
             this.nud_employee.Size = new System.Drawing.Size(60, 20);
             this.nud_employee.TabIndex = 5;
+            this.nud_employee.ValueChanged += new System.EventHandler(this.nud_employee_ValueChanged);
             // 
             // nud_project
             // 
@@ -102,6 +95,7 @@ namespace InsertCreatorApp.Ui
             this.nud_project.Name = "nud_project";
             this.nud_project.Size = new System.Drawing.Size(60, 20);
             this.nud_project.TabIndex = 7;
+            this.nud_project.ValueChanged += new System.EventHandler(this.nud_project_ValueChanged);
             // 
             // label4
             // 
@@ -118,6 +112,7 @@ namespace InsertCreatorApp.Ui
             this.nud_works.Name = "nud_works";
             this.nud_works.Size = new System.Drawing.Size(60, 20);
             this.nud_works.TabIndex = 9;
+            this.nud_works.ValueChanged += new System.EventHandler(this.nud_works_ValueChanged);
             // 
             // label5
             // 
@@ -139,7 +134,6 @@ namespace InsertCreatorApp.Ui
             this.Controls.Add(this.label4);
             this.Controls.Add(this.nud_employee);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.bt_generateAction);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.nud_departments);
@@ -159,7 +153,6 @@ namespace InsertCreatorApp.Ui
         private System.Windows.Forms.NumericUpDown nud_departments;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button bt_generateAction;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.NumericUpDown nud_employee;
         private System.Windows.Forms.NumericUpDown nud_project;

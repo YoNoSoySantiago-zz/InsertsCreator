@@ -15,7 +15,11 @@ namespace InsertCreatorApp.Ui
         [STAThread]
         static void Main()
         {
-            
+            /*
+            ControllerGUI c = new ControllerGUI();
+            c.generate(5, 5, 5, 5);
+            c.createFile();
+            */
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new AutogenPane());

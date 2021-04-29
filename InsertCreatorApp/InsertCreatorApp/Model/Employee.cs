@@ -37,5 +37,10 @@ namespace InsertCreatorApp.Model
             this.position = position;
             this.deptNo = deptNo;
         }
+        override
+        public string ToString()
+        {
+            return empNo + ";" + fName + ";" + lName + ";" + address1 + ";TO_DATE('" + DOB + "','dd/mm/yyyy');" + sex + ";" + position+";"+ deptNo;
+        }
     }
 }
