@@ -138,7 +138,6 @@ namespace InsertCreatorApp.Ui
             this.Controls.Add(this.label1);
             this.Controls.Add(this.nud_departments);
             this.Name = "AutogenPane";
-            this.Load += new System.EventHandler(this.AutogenPane_Load);
             ((System.ComponentModel.ISupportInitialize)(this.nud_departments)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nud_employee)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nud_project)).EndInit();

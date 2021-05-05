@@ -19,11 +19,6 @@ namespace InsertCreatorApp.Ui
             InitializeComponent();
         }
 
-        private void AutogenPane_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void bt_generateAction_Click(object sender, EventArgs e)
         {
             int nd = int.Parse(nud_departments.Value.ToString()); 
@@ -43,6 +38,11 @@ namespace InsertCreatorApp.Ui
             int nd = int.Parse(nud_departments.Value.ToString());
             int ne = int.Parse(nud_employee.Value.ToString());
             int np = int.Parse(nud_project.Value.ToString());
+            if (nd > 12)
+            {
+                nud_departments.Value = 12;
+                nd = 12;
+            }
             if (nd == 0)
             {
                 bt_generateAction.Enabled = false;
