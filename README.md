@@ -47,5 +47,3 @@ Visual Studio 2019 v16.9.4
 
 * **Santiago Hurtado Solis** [YoNoSoySantiago](https://github.com/YoNoSoySantiago)
 * **Luis Felipe Gomez** [gomezLF](https://github.com/gomezLF)
-
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
