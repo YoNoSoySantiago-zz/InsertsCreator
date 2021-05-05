@@ -37,7 +37,7 @@ y con esto tendriamos nuestro archivo INSERTS.sql con los inserts generados.
 
 ### Pre-requisitos 📋
 
-_Se necesita tener isntalado Visual Studio, preferiblemente la ultima version_
+_Se necesita tener instalado Visual Studio, preferiblemente la ultima version_
 
 ```
 Visual Studio 2019 v16.9.4
